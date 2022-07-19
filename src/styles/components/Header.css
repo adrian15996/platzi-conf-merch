@@ -1,0 +1,24 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Header-checkout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    width: 30px;
+    margin: 0 0 0 0.5em;
+  }
+  .Header-checkout i{
+    height: 30px;
+  }
+  .Header-alert {
+    color: #33b13a;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+.Header-title img{
+  width: 23vh;
+}
