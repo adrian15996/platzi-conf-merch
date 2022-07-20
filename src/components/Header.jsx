@@ -11,7 +11,11 @@ const Header = () => {
     <div className="Header">
       <h1 className="Header-title">
         <Link to="/">
-          <img src="https://static.platzi.com/media/user_upload/2-c9a8cf3d-d804-4613-a2ef-d28c1afd778d.jpg" />
+          <img
+            src="https://static.platzi.com/media/user_upload/2-c9a8cf3d-d804-4613-a2ef-d28c1afd778d.jpg"
+            alt="logo"
+          />
+          <span>Logo</span>
         </Link>
       </h1>
       <div className="Header-checkout">
@@ -24,6 +28,7 @@ const Header = () => {
             }
           ></i>
           {cart.length > 0 && <div className="Header-alert">{cart.length}</div>}
+          <span>Cart</span>
         </Link>
       </div>
     </div>

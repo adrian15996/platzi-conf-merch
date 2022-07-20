@@ -7,7 +7,7 @@ const useForwardGeocoding = (address) => {
 
   React.useEffect(() => {
     const fetchData = async () => {
-      const response = await axios(API);
+      const response = await axios.get(API);
       // console.log(response.data.data[0]);
       setMap({
         latitude: response.data.data[0].latitude,
